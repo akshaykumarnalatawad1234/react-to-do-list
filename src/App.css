@@ -13,6 +13,19 @@ nav{
   text-align: center;
 }
 
+.header {
+  background-color: rgb(144, 144, 154);
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.header> a{
+  text-decoration: none;
+  margin: 20px;
+  color: #000;
+}
+
 .container{
   background-color: rgb(255, 235, 226);
   width: 70%;
@@ -78,4 +91,15 @@ button{
 
 .task > button:hover{
   background-color: red;
+}
+
+
+.footer{
+  background-color: #000000;
+  height: 300px;
+}
+
+.user{
+  background-color: #3c8ace;
+  height: 300px;
 }
